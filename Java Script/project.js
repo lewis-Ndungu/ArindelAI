@@ -23,18 +23,18 @@ document.getElementById('downloadButton').addEventListener('click', function () 
 });
 
 function downloadImages() {
-  var image1Url = '../Resources/hbd/1.jpg';
-  var image2Url = '../Resources/hbd/2.jpg';
-  var image3Url = '../Resources/hbd/3.jpg';
-  var image4Url = '../Resources/hbd/4.jpg';
-  var image5Url = '../Resources/hbd/5.jpg';
-  var image6Url = '../Resources/hbd/6.jpg';
-  var image7Url = '../Resources/hbd/7.jpg';
-  var image8Url = '../Resources/hbd/8.jpg';
-  var image9Url = '../Resources/hbd/9.jpg';
-  var image10Url = '../Resources/hbd/10.jpg';
-  var image11Url = '../Resources/hbd/glow.gif';
-  var image12Url = '../Resources/hbd/hbd.gif';
+  var image1Url = 'Resources/hbd/1.jpg';
+  var image2Url = 'Resources/hbd/2.jpg';
+  var image3Url = 'Resources/hbd/3.jpg';
+  var image4Url = 'Resources/hbd/4.jpg';
+  var image5Url = 'Resources/hbd/5.jpg';
+  var image6Url = 'Resources/hbd/6.jpg';
+  var image7Url = 'Resources/hbd/7.jpg';
+  var image8Url = 'Resources/hbd/8.jpg';
+  var image9Url = 'Resources/hbd/9.jpg';
+  var image10Url = 'Resources/hbd/10.jpg';
+  var image11Url = 'Resources/hbd/glow.gif';
+  var image12Url = 'Resources/hbd/hbd.gif';
 
   var image1 = document.createElement('a');
   image1.href = image1Url;
