@@ -402,12 +402,12 @@ window.addEventListener( 'resize', function(){
 })
 
   document.addEventListener("DOMContentLoaded", function() {
-    // Wait for 11 seconds
+  
     setTimeout(function() {
-      // Add a click event listener to the document
+ 
       document.addEventListener("click", function() {
-        // Redirect to the second HTML page
-        window.location.href = "Happy_Birthday_Anne.html";
+        
+        window.location.href = "003.html";
       });
     }, 11000);
   });
