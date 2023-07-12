@@ -407,7 +407,7 @@ window.addEventListener( 'resize', function(){
       // Add a click event listener to the document
       document.addEventListener("click", function() {
         // Redirect to the second HTML page
-        window.location.href = "project.html";
+        window.location.href = "Happy_Birthday_Anne.html";
       });
-    }, 11000); // 11 seconds in milliseconds
+    }, 11000);
   });
